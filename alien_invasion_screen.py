@@ -36,7 +36,7 @@ class AlienInvasion:
 
     """Update images on the screen, and flip to the new screen."""
     def _update_screen(self):
-        # Redraw the screen during each pass through the loop.
+        # Redraw the screen and ship during each pass through the loop.
         screen.full.fill(screen.bg_color)
         self.ship.blitme()
         # Draw the bullets
